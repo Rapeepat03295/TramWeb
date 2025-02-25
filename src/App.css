@@ -24,6 +24,9 @@
   color: white;
 }
 
+.app-main {
+display: flex;
+}
 .App-link {
   color: #61dafb;
 }

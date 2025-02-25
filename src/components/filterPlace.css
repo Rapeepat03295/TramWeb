@@ -1,0 +1,17 @@
+.filter-btn-c {
+    display: Flex;
+    justify-content: space-between;
+    padding: 1vw 2vw 1vw 5vw;
+    width: 40vw;
+}
+  
+.filter-btn{
+    border: None;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    font-size: 1vw;
+    padding: 0.5vw;
+    width: 10vw;
+}
+

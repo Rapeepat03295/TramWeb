@@ -1,9 +1,11 @@
-import Navbar from '../components/navbar';
+import "../pages/login.css"
+import FilterPlace from '../components/filterPlace';
 const Login = () => {
     console.log("in login page");
     return(
-        <div class ="home-c">
-            <Navbar/>
+        <div className ="home-c">
+            
+            <FilterPlace/>
 
         </div>
     )
