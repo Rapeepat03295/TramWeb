@@ -1,17 +1,19 @@
-.filter-btn-c {
-    display: Flex;
-    justify-content: space-between;
-    padding: 1vw 2vw 1vw 5vw;
-    width: 40vw;
+
+
+.filter-place-c{
+    width: 100%;
 }
   
-.filter-btn{
-    border: None;
-    border-radius: 30px;
-    background-color: purple;
-    color: white;
-    font-size: 1vw;
-    padding: 0.5vw;
-    width: 10vw;
-}
 
+.search-tram{
+    border: none;
+    padding: 0.4vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 6px;
+    position: fixed;
+    width: 11vw;
+    background-color: rgb(231, 231, 231);
+    z-index: 2000;
+    left: 10vw;
+    top: 1vh;
+}

@@ -1,0 +1,75 @@
+.admin-login-com{
+    position: absolute;
+    z-index: 1000;
+    right: 5vw;
+    top: 0.5vw;
+}
+
+
+
+.admin-login-btn{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    z-index: 1000;
+    right: 5vw;
+    background-color: white;
+    border-radius: 60%;
+    top: 0.5vw;
+    border: 4px solid rgb(86, 165, 238);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.admin-form{
+    visibility: visible;
+    transition: ease-in-out 0.2s;
+    display: flex;
+    position: relative;
+    top: 4vw;
+    width: 9vw;
+    flex-direction: column;
+    background-color: white;
+    border: 2px double rgb(86, 165, 238);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.login-label{
+    font-size: 0.7vw;
+    font-weight: bold;
+    margin: 1vw 0vw 0.8vw 1.7vw;
+    
+}
+
+.login-input{
+    padding: 0.2vw;
+    width: 70%;
+    border: none;
+    background-color: rgb(174, 196, 218);
+    border-radius: 5px;
+    align-self: center;
+}
+
+
+.login-btn{
+    border: none;
+    margin: 1.5vw;
+    padding: 0.5vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.7vw;
+    cursor: pointer;
+
+}
+
+.login-btn:hover{
+background-color: rgb(64, 156, 248);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.admin-form-hidden {
+    visibility: hidden;
+}

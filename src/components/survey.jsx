@@ -1,4 +1,4 @@
-import "../pages/survey.css";
+import "../components/survey.css";
 
 const survey = () => {
   console.log("in survery");
